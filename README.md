@@ -9,6 +9,8 @@ Reason being - A* algorithm only ever inspects and removes from one end so we ca
 <h4>To quote documentation:</h4>
 | "Heaps are binary trees for which every parent node has a value less than or equal to any of its children."
 
+<h5>Simple example</h5>
+___
 ```
 >>> def heapSort(iter):
         h = []
